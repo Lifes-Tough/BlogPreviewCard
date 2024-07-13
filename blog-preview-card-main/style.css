@@ -1,1 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@100..900&display=swap');
+
+*{
+    font-family: 'Figtree';
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    max-width: 384px;
+    max-height: 522px;
+    border-radius: 20px;
+    outline: hsl(0, 0%, 7%) solid 1px;
+    box-shadow: 7px 7px;
+    padding: 24px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h4{
+    background-color: hsl(47, 88%, 63%);
+    text-align: left;
+    max-width: fit-content;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container{
+    display: inline-flex;
+}
