@@ -23,7 +23,7 @@ img{
     border-radius: 10px;
 }
 
-h4{
+.Learning{
     background-color: hsl(47, 88%, 63%);
     text-align: left;
     max-width: fit-content;
@@ -43,4 +43,13 @@ p{
 
 .container{
     display: inline-flex;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    padding-left: 12px;
 }
